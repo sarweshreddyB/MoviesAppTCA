@@ -14,6 +14,7 @@
 		CF11D65B2BE0147F009950EA /* MoviesAppTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D65A2BE0147F009950EA /* MoviesAppTCATests.swift */; };
 		CF11D6652BE0147F009950EA /* MoviesAppTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6642BE0147F009950EA /* MoviesAppTCAUITests.swift */; };
 		CF11D6672BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6662BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift */; };
+		CF11D6782BE08AB3009950EA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6772BE08AB3009950EA /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CF11D6602BE0147F009950EA /* MoviesAppTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11D6642BE0147F009950EA /* MoviesAppTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTCAUITests.swift; sourceTree = "<group>"; };
 		CF11D6662BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF11D6772BE08AB3009950EA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		CF11D6482BE0147D009950EA /* MoviesAppTCA */ = {
 			isa = PBXGroup;
 			children = (
+				CF11D6762BE08AA3009950EA /* Store */,
 				CF11D6492BE0147D009950EA /* MoviesAppTCAApp.swift */,
 				CF11D64B2BE0147D009950EA /* ContentView.swift */,
 				CF11D64D2BE0147F009950EA /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				CF11D6662BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift */,
 			);
 			path = MoviesAppTCAUITests;
+			sourceTree = "<group>";
+		};
+		CF11D6762BE08AA3009950EA /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				CF11D6772BE08AB3009950EA /* Store.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF11D6782BE08AB3009950EA /* Store.swift in Sources */,
 				CF11D64C2BE0147D009950EA /* ContentView.swift in Sources */,
 				CF11D64A2BE0147D009950EA /* MoviesAppTCAApp.swift in Sources */,
 			);
