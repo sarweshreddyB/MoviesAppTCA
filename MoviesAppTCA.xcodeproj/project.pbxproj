@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CF11D64A2BE0147D009950EA /* MoviesAppTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6492BE0147D009950EA /* MoviesAppTCAApp.swift */; };
-		CF11D64C2BE0147D009950EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D64B2BE0147D009950EA /* ContentView.swift */; };
+		CF11D64C2BE0147D009950EA /* MoviesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D64B2BE0147D009950EA /* MoviesTabView.swift */; };
 		CF11D64E2BE0147F009950EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF11D64D2BE0147F009950EA /* Assets.xcassets */; };
 		CF11D6512BE0147F009950EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF11D6502BE0147F009950EA /* Preview Assets.xcassets */; };
 		CF11D65B2BE0147F009950EA /* MoviesAppTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D65A2BE0147F009950EA /* MoviesAppTCATests.swift */; };
 		CF11D6652BE0147F009950EA /* MoviesAppTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6642BE0147F009950EA /* MoviesAppTCAUITests.swift */; };
 		CF11D6672BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6662BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift */; };
 		CF11D6782BE08AB3009950EA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6772BE08AB3009950EA /* Store.swift */; };
+		CF11D67B2BE08F33009950EA /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D67A2BE08F33009950EA /* Tabs.swift */; };
+		CF11D67E2BE08F82009950EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D67D2BE08F82009950EA /* HomeView.swift */; };
+		CF11D6802BE08FA1009950EA /* TvShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D67F2BE08FA1009950EA /* TvShowsView.swift */; };
+		CF11D6822BE08FC2009950EA /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6812BE08FC2009950EA /* MoviesView.swift */; };
+		CF11D6842BE08FD7009950EA /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6832BE08FD7009950EA /* FavouritesView.swift */; };
+		CF11D6872BE0902F009950EA /* SystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11D6862BE0902F009950EA /* SystemImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		CF11D6462BE0147D009950EA /* MoviesAppTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesAppTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11D6492BE0147D009950EA /* MoviesAppTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTCAApp.swift; sourceTree = "<group>"; };
-		CF11D64B2BE0147D009950EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF11D64B2BE0147D009950EA /* MoviesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTabView.swift; sourceTree = "<group>"; };
 		CF11D64D2BE0147F009950EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF11D6502BE0147F009950EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF11D6562BE0147F009950EA /* MoviesAppTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +52,12 @@
 		CF11D6642BE0147F009950EA /* MoviesAppTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTCAUITests.swift; sourceTree = "<group>"; };
 		CF11D6662BE0147F009950EA /* MoviesAppTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF11D6772BE08AB3009950EA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CF11D67A2BE08F33009950EA /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		CF11D67D2BE08F82009950EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CF11D67F2BE08FA1009950EA /* TvShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsView.swift; sourceTree = "<group>"; };
+		CF11D6812BE08FC2009950EA /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		CF11D6832BE08FD7009950EA /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		CF11D6862BE0902F009950EA /* SystemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +108,10 @@
 		CF11D6482BE0147D009950EA /* MoviesAppTCA */ = {
 			isa = PBXGroup;
 			children = (
+				CF11D6792BE08F05009950EA /* TabView */,
 				CF11D6762BE08AA3009950EA /* Store */,
+				CF11D6852BE0900B009950EA /* Common */,
 				CF11D6492BE0147D009950EA /* MoviesAppTCAApp.swift */,
-				CF11D64B2BE0147D009950EA /* ContentView.swift */,
 				CF11D64D2BE0147F009950EA /* Assets.xcassets */,
 				CF11D64F2BE0147F009950EA /* Preview Content */,
 			);
@@ -136,6 +149,35 @@
 				CF11D6772BE08AB3009950EA /* Store.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		CF11D6792BE08F05009950EA /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				CF11D64B2BE0147D009950EA /* MoviesTabView.swift */,
+				CF11D67A2BE08F33009950EA /* Tabs.swift */,
+				CF11D67C2BE08F67009950EA /* TabItemViews */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		CF11D67C2BE08F67009950EA /* TabItemViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF11D67D2BE08F82009950EA /* HomeView.swift */,
+				CF11D6812BE08FC2009950EA /* MoviesView.swift */,
+				CF11D67F2BE08FA1009950EA /* TvShowsView.swift */,
+				CF11D6832BE08FD7009950EA /* FavouritesView.swift */,
+			);
+			path = TabItemViews;
+			sourceTree = "<group>";
+		};
+		CF11D6852BE0900B009950EA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF11D6862BE0902F009950EA /* SystemImage.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +311,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF11D6782BE08AB3009950EA /* Store.swift in Sources */,
-				CF11D64C2BE0147D009950EA /* ContentView.swift in Sources */,
+				CF11D6802BE08FA1009950EA /* TvShowsView.swift in Sources */,
+				CF11D6842BE08FD7009950EA /* FavouritesView.swift in Sources */,
+				CF11D64C2BE0147D009950EA /* MoviesTabView.swift in Sources */,
 				CF11D64A2BE0147D009950EA /* MoviesAppTCAApp.swift in Sources */,
+				CF11D6822BE08FC2009950EA /* MoviesView.swift in Sources */,
+				CF11D67E2BE08F82009950EA /* HomeView.swift in Sources */,
+				CF11D67B2BE08F33009950EA /* Tabs.swift in Sources */,
+				CF11D6872BE0902F009950EA /* SystemImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
